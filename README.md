@@ -1,6 +1,6 @@
 ![My Profile](https://github.com/info-chientran/love-days/blob/main/assets/img/cover.png?raw=true)
 
-## My Profile
+## Love Days
 
 ### Preview
 
