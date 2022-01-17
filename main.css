@@ -6,14 +6,106 @@
 }
 
 body {
+    height: 100vh;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     background: linear-gradient(180deg, #FF838E 0%, #FFC9CE 0.01%, #FFF6EE 100%);
+    display: flex;
 }
 
 .main {
     position: relative;
     width: 1440px;
-    height: 1024px;
 }
 
-header {}
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 72px;
+    line-height: 108px;
+    color: #EF567D;
+}
+
+
+/* Love Days */
+
+.love-days {
+    width: 508px;
+    height: 110px;
+    margin-top: 80px;
+    background: linear-gradient(90deg, rgba(39, 255, 216, 0.2) 0%, rgba(249, 44, 253, 0.2) 100%);
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+}
+
+#days {
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#days,
+#timer span {
+    color: #EF567D;
+}
+
+#timer {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+
+/* Avatar */
+
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar div {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar p {
+    font-size: 24px;
+    line-height: 32px;
+    color: #EF567D;
+}
+
+.heart img {
+    width: 120px;
+    height: 120px;
+}
+
+
+/* Music */
+
+.music {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 80px;
+    width: 380px;
+    height: 78px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(39, 255, 216, 0.25) 0%, rgba(249, 44, 253, 0.25) 100%);
+}
