@@ -1,4 +1,4 @@
-![My Profile](https://github.com/info-chientran/love-days/blob/main/assets/img/cover.png?raw=true)
+![Love ](https://github.com/info-chientran/love-days/blob/main/assets/images/cover.png?raw=true)
 
 ## Love Days
 
