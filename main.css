@@ -22,12 +22,11 @@ body {
 
 header {
     text-align: center;
-    margin-top: 10px;
 }
 
 header a {
     text-decoration: none;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 108px;
     color: #EF567D;
 }
@@ -38,7 +37,7 @@ header a {
 .love-days {
     width: 508px;
     height: 110px;
-    margin-top: 80px;
+    margin-top: 50px;
     background: linear-gradient(90deg, rgba(39, 255, 216, 0.2) 0%, rgba(249, 44, 253, 0.2) 100%);
     border-radius: 50px;
     position: relative;
@@ -49,20 +48,23 @@ header a {
     align-items: center;
 }
 
-#days {
+.love-days data {
     padding-top: 10px;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 }
 
-#days,
-#timer span {
+date,
+time {
+    display: block;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
     color: #EF567D;
 }
 
 #timer {
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 2.4rem;
+    line-height: 3rem;
 }
 
 
@@ -85,8 +87,8 @@ header a {
 }
 
 .avatar p {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.2rem;
+    line-height: 2rem;
     color: #EF567D;
 }
 
@@ -108,4 +110,13 @@ header a {
     height: 78px;
     border-radius: 50px;
     background: linear-gradient(90deg, rgba(39, 255, 216, 0.25) 0%, rgba(249, 44, 253, 0.25) 100%);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #EF567D;
 }
