@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     background: linear-gradient(180deg, #FF838E 0%, #FFC9CE 0.01%, #FFF6EE 100%);
